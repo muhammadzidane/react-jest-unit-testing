@@ -1,0 +1,1 @@
+export const penjumlahan = (num1, num2) => num1 + num2;
