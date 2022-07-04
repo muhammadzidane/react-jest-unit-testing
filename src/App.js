@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import ComponentAxiosCall from './materi-testing/ComponentAxiosCall';
+import ComponentRole from './materi-testing/ComponentRole';
+import ComponentUserEvent from './materi-testing/ComponentUserEvent';
+import ComponentVariant from './materi-testing/ComponentVariant';
+import SampleRTLComp from './materi-testing/SampleRTLComp';
+import SimpleShowHide from './materi-testing/SimpleShowHide';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <SampleRTLComp />
+      <SimpleShowHide />
+      <ComponentRole />
+      <ComponentVariant />
+      <ComponentUserEvent />
+      <ComponentAxiosCall />
+    </>
   );
 }
 
